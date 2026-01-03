@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "LavishlyYours";
+    src : url("../font/LavishlyYours-Regular.ttf")
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+    
+}
+
+/* .h1{
+    text-align: left;
+} */
+
+.h2{
+   // font-size: 16px;
+    
+}
+
+h2{
+    font-family:"LavishlyYours" ;
+}
+
+header{
+
+    background-color: rgb(133, 123, 123);
+    color: white;
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+nav{
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+
+}
+
+nav a{
+
+    color: rgb(242, 242, 242);
+    text-decoration: none;
+    display: flex;
+    gap: 100px;
+    font-weight: lighter;
+
+}
+
+nav a.active, nav a:hover{
+
+    text-decoration: underline;
+
+}
+
+#acceuil{
+    background: url("../image/plage1.jpg")center/cover no-repeat;
+    color:rgb(246, 248, 248);
+    text-align: center;
+    padding: 200px 300px;
+    display: inline-block;
+}
+
+#acceuil .overlay{
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#acceuil h2{
+    font-size: 48px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
